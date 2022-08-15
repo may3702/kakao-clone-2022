@@ -1,0 +1,35 @@
+.chat-badge{
+    background-color:tomato;
+    width:30px;
+    height:30px;
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    font-weight:600;
+}
+
+.more-circle-badge{
+    width:6px;
+    height:6px;
+    border-radius:3px;
+    background-color:tomato;
+    position:absolute;
+    right:-5px;
+    display:flex;
+}
+
+.screen-header__icons span:last-child{
+    position:relative;
+}
+
+.gear-circle-badge{
+    width:6px;
+    height:6px;
+    border-radius:3px;
+    background-color:tomato;
+    position:absolute;
+    top:-5px;
+    right:-5px;
+}

@@ -1,0 +1,31 @@
+.status-bar{
+    display:flex;
+    /* justify-content:space-between; */
+    /* 각자가 가진 box의 크기가 다르기 때문에 완벽하게 중심에 오지 않는다 */
+    justify-content:center;
+    padding:5px 3px;
+}
+
+.status-bar__column{
+    width:33.3%;
+}
+
+.status-bar__column:first-child span{
+    margin-right:5px;
+}
+
+
+.status-bar__column:nth-child(2){
+    display:flex;
+    justify-content:center;
+}
+
+.status-bar__column:last-child{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.status-bar__column .fa-battery-full{
+    margin:0px 5px;
+}
